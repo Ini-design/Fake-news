@@ -25,9 +25,6 @@ df = pd.read_csv("FA-KES-Dataset.csv", encoding="latin-1")
 # data exploration
 print(df.head())   
 
-# data preprocessing
-
-
 # text cleaning
 stops_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
